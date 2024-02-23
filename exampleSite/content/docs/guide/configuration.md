@@ -119,6 +119,16 @@ menu:
       weight: 3
 ```
 
+### Sidebar Depth
+
+To control the max depth of nested sidebar items, use `params.sidebar.maxDepth`:
+
+```yaml {filename="hugo.yaml"}
+params:
+  sidebar:
+    maxDepth: 4
+```
+
 ## Right Sidebar
 
 ### Table of Contents
